@@ -3,7 +3,7 @@
   "name": "osintcompanion",
   "description": "My application description",
   "version": "1.0.0",
-  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "author": "Logan Wilquin <onivoid.tv@gmail.com>",
   "main": "app/background.js",
   "homepage": "https://google.com/",
   "scripts": {

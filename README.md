@@ -1,38 +1,34 @@
-<p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
+# Osint Companion
 
-## Usage
+Osint Companion est un logiciel open source qui facilite l'exécution de scripts Python tels que Holehe et Sherlock. Il est conçu pour être facile à utiliser, même pour les personnes qui n'ont pas de connaissances en informatique.
 
-### Create an App
+## Caractéristiques
 
-```
-# with npx
-$ npx create-nextron-app my-app --example with-tailwindcss
+* Facile à utiliser, même pour les personnes qui n'ont pas de connaissances en informatique
+* Prend en charge les scripts Python Holehe et Sherlock
+* Installe automatiquement Python et les modules nécessaires
+* Puissant outil d'OSINT qui peut être utilisé à des fins légitimes ou malveillantes
 
-# with yarn
-$ yarn create nextron-app my-app --example with-tailwindcss
+## Comment utiliser
 
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-tailwindcss
-```
+Pour utiliser Osint Companion, suivez ces étapes :
 
-### Install Dependencies
+1. Téléchargez et installez le logiciel.
+2. Ouvrez le logiciel et cliquez sur le bouton "Nouveau".
+3. Dans la fenêtre de dialogue, saisissez l'URL du site Web ou du domaine que vous souhaitez enquêter.
+4. Cliquez sur le bouton "Exécuter".
+5. Osint Companion affichera les résultats de l'enquête dans la fenêtre de sortie.
 
-```
-$ cd my-app
+## Documentation
 
-# using yarn or npm
-$ yarn (or `npm install`)
+Pour plus d'informations sur Osint Companion, consultez la documentation sur GitHub :
 
-# using pnpm
-$ pnpm install --shamefully-hoist
-```
+* [Documentation](https://github.com/Skullyfox/Osint-Companion)
 
-### Use it
+## Communauté
 
-```
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
+Pour discuter de Osint Companion avec d'autres utilisateurs, rejoignez la communauté Discord :
 
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
-```
+* [Discord](https://discord.gg/DG9UV76ByN)
+
+**Utilisez Osint Companion de manière responsable!**
