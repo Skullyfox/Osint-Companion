@@ -14,10 +14,14 @@ Osint Companion est un logiciel open source qui facilite l'exécution de scripts
 Pour utiliser Osint Companion, suivez ces étapes :
 
 1. Téléchargez et installez le logiciel.
-2. Ouvrez le logiciel et cliquez sur le bouton "Nouveau".
-3. Dans la fenêtre de dialogue, saisissez l'URL du site Web ou du domaine que vous souhaitez enquêter.
-4. Cliquez sur le bouton "Exécuter".
+2. Rendez vous sur la page "Requirements" et vérifiez que les près requis sont installés.
+3. Rendez vous sur la page du module d'OSINT que vous souhaitez utiliser et installez le s'il ne l'est pas.
+4. Renseignez les champs textes nécessaires et appuyez sur le bouton servant à lancer la recherche.
 5. Osint Companion affichera les résultats de l'enquête dans la fenêtre de sortie.
+
+## Important
+
+**Lors de l'installation de Python sur Windows, cochez la case qui vous demande si vous voulez que Python soit accessible via les variables d'environnement PATH**
 
 ## Documentation
 
