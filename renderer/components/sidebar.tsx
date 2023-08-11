@@ -35,6 +35,13 @@ function Sidebar () {
                         <p className='text-slate-50'>{isHovered ? "Holehe" : null}</p>
                     </div>
                 </Link>
+
+                <Link href='/sherlock'>
+                    <div className='flex gap-2 hover:cursor-pointer'>
+                        <Search strokeWidth={1} />
+                        <p className='text-slate-50'>{isHovered ? "Sherlock" : null}</p>
+                    </div>
+                </Link>
         </div>
       );
 }

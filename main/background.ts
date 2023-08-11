@@ -3,7 +3,7 @@ import serve from 'electron-serve';
 import { 
   createWindow, checkPython, checkPip, 
   checkHolehe, checkGit, onlyUsed, 
-  installHolehe, installGit, installPython } from './helpers';
+  installHolehe, installGit, installPython, checkSherlock, installSherlock, basicUse } from './helpers';
 import { ipcMain } from 'electron';
 
 const isProd: boolean = process.env.NODE_ENV === 'production';
@@ -49,6 +49,10 @@ ipcMain.handle("check-git", () => {
   return checkGit();
 });
 
+ipcMain.handle("check-sherlock", () => {
+  return checkSherlock();
+});
+
 ipcMain.handle("install-holehe", (event, {platform}: {platform: string}) => {
   return installHolehe(platform);
 });
@@ -61,8 +65,16 @@ ipcMain.handle("install-python", (event, {password}: {password: string}) => {
   return installPython(password);
 });
 
+ipcMain.handle("install-sherlock", (event, {platform}: {platform: string}) => {
+  return installSherlock(platform);
+});
+
 ipcMain.handle("only-used", (event, {email, platform}: {email: string, platform: string}) => {
   return onlyUsed(email, platform);
+});
+
+ipcMain.handle("basic-use", (event, {username, platform}: {username: string, platform: string}) => {
+  return basicUse(username, platform);
 });
 
 ipcMain.handle('get-platform', () => {

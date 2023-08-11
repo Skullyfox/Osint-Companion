@@ -7,6 +7,9 @@ import checkGit from './check-git';
 import installHolehe from './holeheFunctions/installHolehe';
 import installGit from './installGit';
 import installPython from './installPython';
+import checkSherlock from './check-sherlock';
+import installSherlock from './sherlockFunctions/installSherlock';
+import basicUse from './sherlockFunctions/basicUse';
 
 export {
   createWindow,
@@ -18,4 +21,7 @@ export {
   installHolehe,
   installGit,
   installPython,
+  checkSherlock,
+  installSherlock,
+  basicUse,
 };
