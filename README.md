@@ -7,7 +7,6 @@ Osint Companion est un logiciel open source qui facilite l'exécution de scripts
 * Facile à utiliser, même pour les personnes qui n'ont pas de connaissances en informatique
 * Prend en charge les scripts Python Holehe et Sherlock
 * Installe automatiquement Python et les modules nécessaires
-* Puissant outil d'OSINT qui peut être utilisé à des fins légitimes ou malveillantes
 
 ## Comment utiliser
 
